@@ -1,8 +1,9 @@
 package Exercises;
-
+import java.util.Scanner;
 public class ColorCode {
 	public static void main(String[] args) {
-		char ch=args[0].charAt(0);
+		Scanner sc=new Scanner(System.in);
+		char ch=sc.next().charAt(0);
 		switch(ch){
 		case 'R':System.out.println("R->Red");
 		break;
